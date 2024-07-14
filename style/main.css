@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    background-color: rgba(204, 170, 204, 0.23);
+    text-align: center;
+    justify-content: center;
+}
+
+.product{
+    width:20%;
+    transition: transform .5s;
+    background-color: azure;
+}
+
+.product:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(204, 170, 204, 0.723);
+}

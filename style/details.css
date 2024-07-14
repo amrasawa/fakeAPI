@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.product{
+    display:flex;
+    gap:70px;
+}
+
+.product-info{
+    width:50%;
+   
+}
+.product-images{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+img{
+    width:30%;
+}

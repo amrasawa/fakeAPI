@@ -10,9 +10,9 @@ const displayInfo=async()=>{
     const data=await getInfo();
     const images=data.images.map((img)=>
         `
-        <img src='${data.images}' width="200px" />
+        <img src='${data.images}' />
     `
-    ).join('');
+    ).join(' ');
     const result = `
         <div class="product-info"
             <h2>${data.title}</h2>
